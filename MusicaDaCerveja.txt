@@ -1,0 +1,33 @@
+package musicadacerveja;
+/**
+ *
+ * @author Daniel Chianca V. Schoch
+ * Matricula: 1620016848
+ */
+import java.util.Scanner;
+public class MusicaDaCerveja {
+   public static void main(String[] args) {
+        int NumCerva=99;
+        String plvr="garrafas";
+        Scanner leitor= new Scanner(System.in);
+        while(NumCerva>0){
+            if(NumCerva==1){
+              plvr="garrafa";  
+            }
+            System.out.println(NumCerva + " "+ plvr + " de cerva");
+            System.out.println("Pego uma garrafa");
+            System.out.println("Passo para frente");
+            NumCerva = NumCerva-1;
+            if(NumCerva>0){
+                System.out.println(NumCerva + " "+ plvr + " de cerveja no freezer");
+            }else {
+                System.out.println("Acabou");
+                System.out.println("Digite 1 para reabastecer ou 2 para parar de beber:");
+                int resp = leitor.nextInt();
+                if(resp==1){
+                     
+            }     
+                }
+            }
+        }   
+    }
