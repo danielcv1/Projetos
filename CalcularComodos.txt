@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+typedef struct cmd{
+	char nome[20];
+	float l1;
+	float l2;
+	float area;
+}comodo;
+
+typedef struct csa{
+	comodo vetor[5];
+}casa;
+
+int main() {
+	int i;
+	casa m_casa;
+	//pegar os dados dos cinco comodos
+		//loop de cinco vezes
+			//pegar do teclado e armazena na estrutura os dados: nome, lado1, lado2
+	for(i=0; i<=4; i++) {
+		scanf("%s", m_casa.vetor[i].nome );
+	}
+	//calcular a area de cada comodo
+	
+	//calcular a area da casa
+	
+	//mostrar os dados e resultados
+}
