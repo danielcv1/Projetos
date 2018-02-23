@@ -1,0 +1,46 @@
+
+/**
+ *
+ * @author Daniel Chianca V. Schoch
+ * Matricula: 1620016848
+ */
+import java.util.Scanner;
+public class MusicaDaCerveja {
+   public static void main(String[] args) {
+        int NumCerva=99;
+        String plvr="garrafas";
+        Scanner leitor= new Scanner(System.in);
+        int resp=0;
+        int quantidade=0;
+        while(NumCerva>0){
+            if(NumCerva==1){
+              plvr="garrafa";  
+            }
+            System.out.println(NumCerva + " "+ plvr + " de cerva");
+            System.out.println("Pego uma garrafa");
+            System.out.println("Passo para frente");
+            NumCerva = NumCerva-1;
+            if(NumCerva>0){
+                System.out.println(NumCerva + " "+ plvr + " de cerveja no freezer");
+            }else {
+                System.out.println("Acabou");
+				System.out.println("Digite 1 - para SIM");
+				System.out.println("Digite 2 - para NÃO");
+				resp = leitor.nextInt();
+
+              
+                if(resp==1){
+                	System.out.println("informe o numero de cervejas");
+					quantidade=leitor.nextInt();
+					NumCerva=quantidade;
+					System.out.println("Cervejas reabastecidas");
+
+
+                     
+            }else{
+            	System.out.println("Va dormir entao");
+            }
+                }
+            }
+        }   
+    }
