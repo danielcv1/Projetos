@@ -1,0 +1,95 @@
+01) 
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(int argc, char *argv[]) {
+	float n1;
+	float n2;
+	float media;
+	
+	printf("Digite a primeira nota: ");
+	scanf("%f", &n1);
+	printf("Digite a segunda nota: ");
+	scanf("%f", &n2);
+	
+	media=(n1+n2)/2;
+	
+	printf("A media eh: %f", media);
+	
+	return 0;
+}
+
+02)
+//Nao entendi
+
+03)
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+int main(int argc, char **argv[]){  
+  float pi=3.141592;
+  float raio;
+  printf("digite o valor do raio: ");
+  scanf("%f",&raio);
+  printf("a area do circulo e: %.2f\n",(pi*(raio*raio)));
+  return 0;
+}
+04)
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+int main(int argc, char **argv[]){  
+	int n1,n2,n3,n4;
+	int mult, soma;
+	
+	printf("Digite o primeiro numero:");
+	scanf("%d", &n1);
+	printf("Digite o segundo numero:");
+	scanf("%d", &n2);
+	printf("Digite o terceiro numero:");
+	scanf("%d", &n3);
+	printf("Digite o quarto numero:");
+	scanf("%d", &n4);
+	
+	mult=n1*n3;
+	soma=n2+n4;
+	
+	printf("A multiplicao do primeiro*terceiro:%d\n", mult);
+	printf("A soma do segundo+quarto: %d", soma);
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
